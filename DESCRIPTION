@@ -1,10 +1,10 @@
 Package: leafleticon
 Type: Package
-Title: Create leafleticon data.
+Title: A data package stores and creates leafleticon data object.
 Version: 0.1.0
 Author: Guang Yang
 Maintainer: Guang Yang <gyang274@gmail.com>
-Description: Create leafleticon data.
+Description: A data package stores and creates leafleticon data object.
 License: file LICENSE
 LazyData: TRUE
 Encoding: UTF-8
