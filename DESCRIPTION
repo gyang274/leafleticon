@@ -1,0 +1,17 @@
+Package: leafleticon
+Type: Package
+Title: Create leafleticon data.
+Version: 0.1.0
+Author: Guang Yang
+Maintainer: Guang Yang <gyang274@gmail.com>
+Description: Create leafleticon data.
+License: file LICENSE
+LazyData: TRUE
+Encoding: UTF-8
+Depends: data.table, magrittr
+URL: http://github.com/gyang274/leafleticon
+BugReports: http://github.com/gyang274/route/leafleticon
+RoxygenNote: 5.0.1
+Imports: dplyr, purrr
+LinkingTo: Rcpp
+SystemRequirements: GNU make

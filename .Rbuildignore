@@ -1,0 +1,12 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.md$
+^README\.Rmd$
+^README-.*\.png$
+^NEWS\.md$
+^NEWS\.Rmd$
+^NEWS-.*\.png$
+app/
+doc/
+mat/
+wfx/
