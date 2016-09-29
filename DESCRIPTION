@@ -13,5 +13,4 @@ URL: http://github.com/gyang274/leafleticon
 BugReports: http://github.com/gyang274/route/leafleticon
 RoxygenNote: 5.0.1
 Imports: dplyr, purrr
-LinkingTo: Rcpp
 SystemRequirements: GNU make
