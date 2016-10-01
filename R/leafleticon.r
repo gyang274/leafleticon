@@ -27,7 +27,7 @@ ik_create_icon_db <- function() {
 
   an_icon_cc <- c("info", "success", "warning", "danger", "primary", "purple", "grey")
 
-  an_icon <- ik_create_icon_list(an_icon_nm, an_icon_fl, an_icon_cc)
+  an_icon <- leafleticon::ik_create_icon_list(an_icon_nm, an_icon_fl, an_icon_cc)
 
   return( an_icon )
 
@@ -40,7 +40,7 @@ ik_create_icon_list <- function(ik_nm, ik_fl, ik_cc) {
       fl = plyr::mapvalues(nm, from = ik_nm, to = ik_fl, warn_missing = FALSE)
     ) %>%
     dplyr::mutate(
-      ik = purrr::pmap(list(nm, fl, cc), ik_create_icon_list_single)
+      ik = purrr::pmap(list(nm, fl, cc), leafleticon::ik_create_icon_list_single)
     ) %>%
     `class<-`(c("data.table", "data.frame"))
 
