@@ -46,7 +46,7 @@ ik_create_icon_list <- function(ik_nm, ik_fl, ik_cc) {
 
   eval(parse(text = paste0(
     'ik <- list(', paste0(paste0(
-      ik_ll[["nm"]], '_', ik_ll[["cc"]], ' = ', 'ik_ll[nm == "', ik_ll[["nm"]], '" & ', 'cc == "', ik_ll[["cc"]], '", ik][[1]]'
+      ik_ll[["nm"]], '_', ik_ll[["cc"]], ' = ', 'ik_ll[nm == "', ik_ll[["nm"]], '" & ', 'cc == "', ik_ll[["cc"]], '", ik, with = TRUE][[1]]'
     ), collapse = ", "), ')'
   )))
 
