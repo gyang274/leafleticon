@@ -21,9 +21,9 @@
 #' icon list: <icons code>_<color code>
 ik_create_icon_db <- function() {
 
-  an_icon_nm <- c("building", "house", "package", "truck")
+  an_icon_nm <- c("building", "house", "package", "truck", "adduser", "reviewer")
 
-  an_icon_fl <- c("building", "house", "package", "truck")
+  an_icon_fl <- c("building", "house", "package", "truck", "adduser", "reviewer")
 
   an_icon_cc <- c("info", "success", "warning", "danger", "primary", "purple", "grey")
 
